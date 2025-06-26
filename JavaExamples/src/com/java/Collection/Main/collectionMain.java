@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-import com.java.Collection.ArrayListExample;
-import com.java.Collection.LinkedListExample;
+import com.java.Collection.Services.ArrayListExample;
+import com.java.Collection.Services.LinkedListExample;
 
 public class collectionMain {
 	static Scanner sc = new Scanner(System.in);

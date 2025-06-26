@@ -3,7 +3,7 @@ package com.java.Collection.Main;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-import com.java.Collection.ArrayListExample;
+import com.java.Collection.Services.ArrayListExample;
 
 public class ArrayListMain {
 

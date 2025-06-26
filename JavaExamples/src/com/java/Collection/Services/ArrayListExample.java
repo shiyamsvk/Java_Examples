@@ -1,41 +1,41 @@
-package com.java.Collection;
+package com.java.Collection.Services;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.Scanner;
 
-public class LinkedListExample {
+public class ArrayListExample {
 	private static Scanner sc = new Scanner(System.in);
 
-	public static boolean linkedListOperation(LinkedList<Integer> list, int option) {
+	public static boolean ArrayListOperation(ArrayList<Integer> list, int option) {
 		
 		switch (option) {
 		case 1:
 			System.out.print("Enter element to insert at beginning: ");
 			int first = sc.nextInt();
-			list.addFirst(first);
+			list.add(0, first);
 			return true;
-			
+
 		case 2:
 			System.out.print("Enter element to insert at end: ");
 			int last = sc.nextInt();
-			list.addLast(last);
+			list.add(last);
 			return true;
 
 		case 3:
 			System.out.print("Enter position (0 to " + list.size() + "): ");
 			int pos = sc.nextInt();
 			if (pos < 0 || pos > list.size()) {
-				System.out.println("Invalid LinkedList position!");
+				System.out.println("Invalid ArrayList position!");
 				return true;
 			}
 			System.out.print("Enter element to insert: ");
-			int value1 = sc.nextInt();
-			list.add(pos, value1);
+			int val = sc.nextInt();
+			list.add(pos, val);
 			return true;
 
 		case 4:
 			if (!list.isEmpty()) {
-				System.out.println("Deleted from beginning: " + list.removeFirst());
+				System.out.println("Deleted from beginning: " + list.remove(0));
 			} else {
 				System.out.println("List is empty!");
 			}
@@ -43,7 +43,7 @@ public class LinkedListExample {
 
 		case 5:
 			if (!list.isEmpty()) {
-				System.out.println("Deleted from end: " + list.removeLast());
+				System.out.println("Deleted from end: " + list.remove(list.size() - 1));
 			} else {
 				System.out.println("List is empty!");
 			}

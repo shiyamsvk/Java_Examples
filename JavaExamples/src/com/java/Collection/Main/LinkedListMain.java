@@ -2,7 +2,7 @@ package com.java.Collection.Main;
 
 import java.util.Scanner;
 import java.util.LinkedList;
-import com.java.Collection.LinkedListExample;
+import com.java.Collection.Services.LinkedListExample;
 
 public class LinkedListMain {
 
