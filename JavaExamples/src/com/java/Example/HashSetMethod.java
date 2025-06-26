@@ -62,7 +62,9 @@ public class HashSetMethod {
 
         // clone()
         set.add("Dragonfruit");
-        HashSet<String> clonedSet = (HashSet<String>) set.clone();
+        
+        @SuppressWarnings("unchecked")
+		HashSet<String> clonedSet = (HashSet<String>) set.clone();
         System.out.println("Cloned set: " + clonedSet);
 
         // toArray()
