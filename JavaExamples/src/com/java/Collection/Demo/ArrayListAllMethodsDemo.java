@@ -108,7 +108,8 @@ public class ArrayListAllMethodsDemo {
         System.out.println("Replaced all to uppercase: " + list);
 
         // 27. clone()
-        ArrayList<String> clonedList = (ArrayList<String>) list.clone();
+        @SuppressWarnings("unchecked")
+		ArrayList<String> clonedList = (ArrayList<String>) list.clone();
         System.out.println("Cloned List: " + clonedList);
 
         // 28. ensureCapacity()

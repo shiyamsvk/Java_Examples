@@ -87,7 +87,8 @@ public class LinkedListAllMethodsDemo {
         System.out.println("\n\nSize: " + list.size());
 
         // clone()
-        LinkedList<String> clonedList = (LinkedList<String>) list.clone();
+        @SuppressWarnings("unchecked")
+		LinkedList<String> clonedList = (LinkedList<String>) list.clone();
         System.out.println("Cloned List: " + clonedList);
 
         // removeIf
