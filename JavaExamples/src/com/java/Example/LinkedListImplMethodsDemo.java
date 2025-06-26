@@ -61,7 +61,8 @@ public class LinkedListImplMethodsDemo {
         System.out.println("Is Empty? " + fruits.isEmpty());
 
         // 13. clone()
-        LinkedList<String> clonedList = (LinkedList<String>)fruits.clone();
+        @SuppressWarnings("unchecked")
+		LinkedList<String> clonedList = (LinkedList<String>)fruits.clone();
         System.out.println("Cloned List: " + clonedList);
 
         // 14. toArray()
