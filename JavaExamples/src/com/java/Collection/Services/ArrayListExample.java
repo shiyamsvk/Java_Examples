@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ArrayListExample {
+	
+	// Arraylist Operations Methods like (Insert,Delete, Search, Display)Values based on user Input
+	
 	private static Scanner sc = new Scanner(System.in);
 
 	public static boolean ArrayListOperation(ArrayList<Integer> list, int option) {

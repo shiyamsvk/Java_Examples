@@ -7,7 +7,7 @@ import com.java.Collection.Services.LinkedListExample;
 public class LinkedListMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Linkedlist Operations like (Insert,Delete, Search, Display)Values based on user Input
 		Scanner sc = new Scanner(System.in);
 		LinkedList<Integer> list = new LinkedList<>();
 		int choice=0;

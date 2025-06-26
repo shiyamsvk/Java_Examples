@@ -8,7 +8,7 @@ import com.java.Collection.Services.ArrayListExample;
 public class ArrayListMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Arraylist Operations like (Insert,Delete, Search, Display)Values based on user Input
 		Scanner sc = new Scanner(System.in);
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		int choice=0;

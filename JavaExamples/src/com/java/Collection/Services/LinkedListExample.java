@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class LinkedListExample {
+	
+//	Linkedlist Operations like (Insert,Delete, Search, Display)Values based on user Input
 	private static Scanner sc = new Scanner(System.in);
 
 	public static boolean linkedListOperation(LinkedList<Integer> list, int option) {

@@ -11,7 +11,7 @@ public class collectionMain {
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Collections (1. Arraylist 2. Linked List) Operations like (Insert,Delete, Search, Display)Values based on user Input
 		System.out.println("Enter your Choice 1. ArrayList 2. LinkedList based on your choice");
 
 		int ch = sc.nextInt();
