@@ -1,6 +1,7 @@
 package ClassRoomDemo;
 
 public class arrayDemo {
+	
 	private int[] nums= {1,2,3,4,5};
 	private int sum=0;
 
@@ -28,4 +29,5 @@ public class arrayDemo {
 		System.out.println("Array Added Values is: "+sum);
 		//System.out.println("Array Added Values is: "+sum());
 	}
+	
 }
