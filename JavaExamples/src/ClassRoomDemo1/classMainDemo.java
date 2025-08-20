@@ -11,10 +11,10 @@ public class classMainDemo {
 		demo.a = new int[5];
 		
 		Scanner sc = new Scanner(System.in);
+		int size=sc.nextInt();
 		
-		for (int i = 0; i < 5; i++)
-			demo.a[i] = sc.nextInt();
-
+		demo.readArray(size);
+		
 		demo.printValues();
 	}
 
