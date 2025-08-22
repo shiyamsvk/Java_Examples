@@ -1,4 +1,7 @@
 package CO2;
+
+import ClassRoomDemo1.DefaluConst;
+
 class parnt
 {
 	String e;
@@ -29,5 +32,8 @@ public class ConDifClas {
 	public static void main(String[] args) {		
 		chld c = new chld("Contructor");
 		System.out.println(c);
+		
+//		DefaluConst d=new DefaluConst();
+		
 	}
 }
