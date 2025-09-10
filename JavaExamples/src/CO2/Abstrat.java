@@ -2,6 +2,11 @@ package CO2;
 abstract class abst
 {
 	abstract void prt();
+	
+	public void print()
+	{
+		System.err.println("HI");
+	}
 }
 class chd extends abst
 {
@@ -9,6 +14,7 @@ class chd extends abst
 	{
 		System.out.println("Abstract method");
 	}
+
 }
 class bro extends abst
 {
