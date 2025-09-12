@@ -1,4 +1,4 @@
-package CO3;
+package OOP_CO3.Exception;
 
 public class examExcep {
 
@@ -8,7 +8,7 @@ public class examExcep {
 		//a[0+4]=5;
 		
 		System.err.println(a[4]);
-		int ab=55,b=5;
+		int ab=55,b=0;
 		try {
 		int c=ab/b;
 		System.out.println(c);
@@ -19,6 +19,6 @@ public class examExcep {
 			
 		}
 		catch(Exception e) {
-		System.out.println(e.getLocalizedMessage());}
+		System.out.println(e);}
 	}
 }

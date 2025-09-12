@@ -1,4 +1,4 @@
-package CO3;
+package OOP_CO3.Exception;
 
 import java.util.Scanner;
 
