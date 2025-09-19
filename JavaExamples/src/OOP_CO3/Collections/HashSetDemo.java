@@ -1,6 +1,7 @@
 package OOP_CO3.Collections;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class HashSetDemo {
 
@@ -22,10 +23,27 @@ public class HashSetDemo {
 		
 		Object hs=hSet.clone();
 		System.out.println("HI: "+hSet.isEmpty()+" "+hSet.contains("appple"));
-		hSet.clear();
+//		hSet.clear();
 		System.err.println("Display HashSet Elements after cleAR: ");
 		hSet.forEach(System.out::println);
 		System.out.println(hSet.isEmpty());
+		
+		System.out.println("HAAKAKA");
+		Iterator<String> iterator=hSet.iterator();
+		while (iterator.hasNext()) {
+            String name = iterator.next();
+            System.out.println(name);
+
+            // Remove "Bob" during iteration
+            if (name.equals("apple")) {
+                iterator.remove();
+            }
+        }
+		System.out.println("HbbKbKb");
+		
+		for (String name : hSet) {
+            System.out.println(name);
+        }
 	}
 
 }
